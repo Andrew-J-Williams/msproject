@@ -20,5 +20,11 @@ public class DepartmentService {
 		log.info("Inside saveDepartment method of DepartmentService");
 		return departmentRepository.save(department);
 	}
+
+	public Department findDepartmentById(Long departmentId) {
+		// TODO Auto-generated method stub
+		log.info("Inside findDepartmentById method of DepartmentService");
+		return departmentRepository.findByDepartmentId(departmentId);
+	}
 	
 }
