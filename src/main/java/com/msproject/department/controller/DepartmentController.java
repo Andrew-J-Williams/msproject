@@ -14,7 +14,7 @@ import com.msproject.department.service.DepartmentService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/department") // We include this as our base path when making REST calls.
+@RequestMapping("/departments") // We include this as our base path when making REST calls.
 @Slf4j // This annotation adds a logger to our class.
 public class DepartmentController {
 	
