@@ -10,7 +10,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity // Whenever we create a class within an entity, we always use '@Entity' to indicate this class is an entity.
-@Data
+@Data // Implicity creates our Getters and Setters as well as all the boilerplate logic
 @AllArgsConstructor
 @NoArgsConstructor
 public class Department {
