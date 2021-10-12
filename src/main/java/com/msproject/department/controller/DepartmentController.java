@@ -21,7 +21,7 @@ public class DepartmentController {
 	
 	@PostMapping("/") // This request will help save our department to the repository.
 	public Department saveDepartment(@RequestBody Department department) {
-		//log.info("Inside saveDepartment method of DepartmentController");
+		log.info("Inside saveDepartment method of DepartmentController");
 		return departmentService.saveDepartment(department);
 	}
 	
